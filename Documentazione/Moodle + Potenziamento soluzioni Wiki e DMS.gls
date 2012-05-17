@@ -1,0 +1,9 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{C}\relax \glsresetentrylist %
+\glossaryentryfield{Central Authentication Service}{\glsnamefont{Central Authentication Service}}{è un servizio single sign-on libero che permette alle applicazioni web la possibilità di rinviare tutte le autenticazioni a un server centrale o a più server di fiducia}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{3\delimN 4}}}\glsgroupskip
+\glsgroupheading{D}\relax \glsresetentrylist %
+\glossaryentryfield{Document Management System}{\glsnamefont{Document Management System}}{è una categoria di sistemi software che serve a organizzare e facilitare la creazione collaborativa di documenti e di altri contenuti.\\ Tecnicamente il DMS è un'applicazione lato server che si occupa di eseguire operazioni massive sui documenti, catalogandoli ed indicizzandoli secondo determinati algoritmi}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{3\delimN 4}}}%
+\end{theglossary}\glossarypostamble

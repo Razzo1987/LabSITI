@@ -1,0 +1,203 @@
+%\documentclass[12pt,a4paper,oneside]{report}
+\documentclass[12pt,a4paper,oneside]{article} %se usiamo articole commentiamo \appendix
+%\documentclass[a4paper, twoside]{article} %inizio documento, stampato su 2 lati, tipo articolo
+
+\usepackage[italian]{babel} %imposta la lingua a italiano
+\usepackage[utf8]{inputenc} %permette la compilazione delle lettere accentate
+
+\usepackage{makeidx} %aggiunge il pakage degli indici
+	\usepackage[breaklinks]{hyperref} %genera l'indice linkato
+	\makeindex %genera l'indice
+
+\usepackage{graphicx} %permette di importare i grafici in pdf e immagini
+\usepackage{latexsym} %permette di inserire i caratteri speciali
+\usepackage{multirow} %colonne a multiriga
+
+\usepackage[toc,acronym]{glossaries}
+	\input{Sorgenti_TEX/Glossario}
+	\makeglossaries
+
+\pagestyle{plain} %stampa indice a piepagina
+
+\title{Moddlepedia - Wikiddle - }
+
+\author{Amodio\\Stefano\\727457
+\and Pinzan\\Andrea\\732345
+\and Racchetti\\Luca\\703311}
+
+\date{\today}
+
+\begin{document} %inizio del documento
+
+%-------------------------------------------------------------------------
+
+\begin{titlepage}
+%\maketitle %genera la prima pagina
+\begin{center}
+		\Huge{Moddlepedia - Wikiddle}\\
+	\vskip 20pt
+	\begin{Large}
+		\begin{tabular}{ c c c }
+		  Amodio & Pinzan & Racchetti \\
+		  Stefano & Andrea & Luca \\
+		  727457 & 732345 & 703311 \\
+		\end{tabular}
+	\end{Large}\\
+	\vskip 20pt
+		\begin{normalsize}
+			\today\\
+		\end{normalsize}
+	\vfill
+		\includegraphics[scale=0.8]{Immagini/logo.jpg}
+	\vfill
+	\begin{normalsize}
+		Versione 0.0.1	
+	\end{normalsize}
+\end{center}
+\end{titlepage}
+
+\thispagestyle{empty}
+\newpage %nuova pagina
+
+\tableofcontents
+\appendix
+\printindex % stampa l'indice
+\newpage %nuova pagina
+%-------------------------------------------------------------------------
+
+
+
+%-------------------------------------------------------------------------
+
+\section{Ambito e Scopo del documento e del progetto}
+
+\gls{cas} è un acronimo la prima volta.\\
+\gls{cas} è un acronimo la seconda volta.\\
+\gls{dms}\\
+\gls{Central Authentication Service} è un glossario la prima volta.\\
+\gls{Central Authentication Service} è un glossario la seconda volta.
+
+aaaaa \cite{esp1} bbbb \cite{esp1} cccc
+
+\newpage %nuova pagina
+
+%-------------------------------------------------------------------------
+	
+\section{Acronimi e Glossario}
+
+\deftranslation{Glossary}{Glossario}
+\deftranslation{Acronyms}{Acronimi}
+\renewcommand*{\glossaryname}{Glossario}
+\renewcommand*{\acronymname}{Acronimi}
+
+\setglossarysection{subsection}
+
+%\glsaddall %imposta la stampa di tutti i termini del gossario, anche se non utilizzati
+
+%\addcontentsline{acronym}{subsection}{Acronimi}
+%\printglossary[type=acronym]
+%\printglossary[type=acronym,title=Acronimi]
+
+%\addcontentsline{toc}{subsection}{Glossario}
+%\printglossary[type=toc]
+%\printglossary[type=toc,title=Glossario]
+
+\printglossary[numberedsection,type=acronym]
+\printglossary[numberedsection]
+%\printglossaries
+
+\newpage %nuova pagina
+
+%-------------------------------------------------------------------------
+\section{Documenti utilizzati}
+
+\newpage %nuova pagina
+%-------------------------------------------------------------------------
+
+\section{Gap Analysis}
+
+\newpage %nuova pagina
+%-------------------------------------------------------------------------
+
+\section{Modello degli oggetti organizzativi (Business Object Model)}
+
+\subsection{Analisi di Dominio - Slide 13}
+
+\newpage %nuova pagina	
+
+%-------------------------------------------------------------------------
+
+\section{Elenco dei requisiti funzionali e informativi}
+
+\include{Sorgenti_TEX/Requisiti}
+
+\newpage %nuova pagina
+
+%-------------------------------------------------------------------------	
+
+\section{Casi d'uso e di interazione}
+
+\subsection{CASO1}
+\subsubsection{CASO1 - Obiettivo}
+\subsubsection{CASO1 - Descrizione ordinata e dettagliata interazione fra Utenti o Utenti-Sistema}
+\subsubsection{CASO1 - Scenari}
+\paragraph{CASO1 - Happy Flow}
+	\begin{itemize}
+	\item acquisto iniziato e concluso con successo
+	\end{itemize}
+\paragraph{CASO1 - Percorsi alternativi}
+	\begin{itemize}
+	\item Disponiblità di un prodotto terminata
+	\item Carta di credito non acettata
+	\item Collegamento con servizi interbancari interrotto
+	\end{itemize}
+\subsubsection{CASO1 - Diagrammi}
+
+\newpage %nuova pagina
+
+%-------------------------------------------------------------------------
+
+\section{Descrizione di un processo notevole di interazione}
+
+\subsection{Modello/diagramma dinamico (processo e di collaborazione)}
+
+\newpage %nuova pagina
+
+%-------------------------------------------------------------------------
+%-------------------------------------------------------------------------
+%-------------------------------------------------------------------------
+%-------------------------------------------------------------------------
+%-------------------------------------------------------------------------
+%-------------------------------------------------------------------------
+%-------------------------------------------------------------------------
+%-------------------------------------------------------------------------
+
+\section{Diagramma}
+
+\subsection{di Struttura}
+
+\subsubsection{static structure diagram}
+\subsubsection{entity diagram}
+\subsubsection{class diagram}
+\subsubsection{activity diagram / behavior}
+\subsubsection{BPMN}
+
+\newpage %nuova pagina
+
+%-------------------------------------------------------------------------
+	
+\section{Appendici}
+
+\subsection{diagrammi di sequenza}
+\subsection{collaboration diagram}
+\subsubsection{entity diagram + scambi di messaggio}
+
+\newpage %nuova pagina
+
+%-------------------------------------------------------------------------
+
+
+\input{Sorgenti_TEX/biblio.tex}
+
+
+\end{document} %fine del documento
