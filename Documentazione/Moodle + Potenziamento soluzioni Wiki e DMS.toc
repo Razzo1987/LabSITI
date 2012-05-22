@@ -1,46 +1,79 @@
 \select@language {italian}
-\contentsline {section}{\numberline {A}Ambito e Scopo del documento e del progetto}{2}{appendix.A}
-\contentsline {section}{\numberline {B}Acronimi e Glossario}{3}{appendix.B}
-\contentsline {subsection}{\numberline {B.1}Acronimi}{3}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}Glossario}{3}{subsection.B.2}
-\contentsline {section}{\numberline {C}Documenti utilizzati}{4}{appendix.C}
-\contentsline {section}{\numberline {D}Gap Analysis}{5}{appendix.D}
-\contentsline {section}{\numberline {E}Modello degli oggetti organizzativi (Business Object Model)}{6}{appendix.E}
-\contentsline {subsection}{\numberline {E.1}Analisi di Dominio - Slide 13}{6}{subsection.E.1}
-\contentsline {section}{\numberline {F}Elenco dei requisiti funzionali e informativi}{7}{appendix.F}
-\contentsline {subsection}{\numberline {F.1}Req.1 - Gestione documento}{8}{subsection.F.1}
-\contentsline {paragraph}{Tipologia:}{8}{section*.4}
-\contentsline {paragraph}{Descrizione:}{8}{section*.5}
-\contentsline {paragraph}{Importanza:}{8}{section*.6}
-\contentsline {paragraph}{Motivazione:}{8}{section*.7}
-\contentsline {paragraph}{Criterio di Validazione:}{8}{section*.8}
-\contentsline {paragraph}{Legame con altri requisiti:}{8}{section*.9}
-\contentsline {subsection}{\numberline {F.2}Req.2 - Inserimento file nel documento}{8}{subsection.F.2}
-\contentsline {paragraph}{Tipologia:}{8}{section*.10}
-\contentsline {paragraph}{Descrizione:}{8}{section*.11}
-\contentsline {paragraph}{Importanza:}{8}{section*.12}
-\contentsline {paragraph}{Motivazione:}{8}{section*.13}
-\contentsline {paragraph}{Criterio di Validazione:}{8}{section*.14}
-\contentsline {paragraph}{Legame con altri requisiti:}{8}{section*.15}
-\contentsline {subparagraph}{Prerequisito}{8}{section*.16}
-\contentsline {section}{\numberline {G}Casi d'uso e di interazione}{9}{appendix.G}
-\contentsline {subsection}{\numberline {G.1}CASO1}{9}{subsection.G.1}
-\contentsline {subsubsection}{\numberline {G.1.1}CASO1 - Obiettivo}{9}{subsubsection.G.1.1}
-\contentsline {subsubsection}{\numberline {G.1.2}CASO1 - Descrizione ordinata e dettagliata interazione fra Utenti o Utenti-Sistema}{9}{subsubsection.G.1.2}
-\contentsline {subsubsection}{\numberline {G.1.3}CASO1 - Scenari}{9}{subsubsection.G.1.3}
-\contentsline {paragraph}{CASO1 - Happy Flow}{9}{section*.17}
-\contentsline {paragraph}{CASO1 - Percorsi alternativi}{9}{section*.18}
-\contentsline {subsubsection}{\numberline {G.1.4}CASO1 - Diagrammi}{9}{subsubsection.G.1.4}
-\contentsline {section}{\numberline {H}Descrizione di un processo notevole di interazione}{10}{appendix.H}
-\contentsline {subsection}{\numberline {H.1}Modello/diagramma dinamico (processo e di collaborazione)}{10}{subsection.H.1}
-\contentsline {section}{\numberline {I}Diagramma}{11}{appendix.I}
-\contentsline {subsection}{\numberline {I.1}di Struttura}{11}{subsection.I.1}
-\contentsline {subsubsection}{\numberline {I.1.1}static structure diagram}{11}{subsubsection.I.1.1}
-\contentsline {subsubsection}{\numberline {I.1.2}entity diagram}{11}{subsubsection.I.1.2}
-\contentsline {subsubsection}{\numberline {I.1.3}class diagram}{11}{subsubsection.I.1.3}
-\contentsline {subsubsection}{\numberline {I.1.4}activity diagram / behavior}{11}{subsubsection.I.1.4}
-\contentsline {subsubsection}{\numberline {I.1.5}BPMN}{11}{subsubsection.I.1.5}
-\contentsline {section}{\numberline {J}Appendici}{12}{appendix.J}
-\contentsline {subsection}{\numberline {J.1}diagrammi di sequenza}{12}{subsection.J.1}
-\contentsline {subsection}{\numberline {J.2}collaboration diagram}{12}{subsection.J.2}
-\contentsline {subsubsection}{\numberline {J.2.1}entity diagram + scambi di messaggio}{12}{subsubsection.J.2.1}
+\contentsline {section}{\numberline {A}Ambito e Scopo del documento e del progetto}{3}{appendix.A}
+\contentsline {section}{\numberline {B}Acronimi e Glossario}{4}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Acronimi}{4}{subsection.B.1}
+\contentsline {subsection}{\numberline {B.2}Glossario}{4}{subsection.B.2}
+\contentsline {section}{\numberline {C}Documenti utilizzati}{5}{appendix.C}
+\contentsline {section}{\numberline {D}Gap Analysis}{6}{appendix.D}
+\contentsline {section}{\numberline {E}Modello degli oggetti organizzativi (Business Object Model)}{7}{appendix.E}
+\contentsline {subsection}{\numberline {E.1}Analisi di Dominio - Slide 13}{7}{subsection.E.1}
+\contentsline {section}{\numberline {F}Elenco dei requisiti funzionali e informativi}{8}{appendix.F}
+\contentsline {subsection}{\numberline {F.1}Req.1 - Gestione documento}{9}{subsection.F.1}
+\contentsline {paragraph}{Tipologia:}{9}{section*.4}
+\contentsline {paragraph}{Descrizione:}{9}{section*.5}
+\contentsline {paragraph}{Importanza:}{9}{section*.6}
+\contentsline {paragraph}{Motivazione:}{9}{section*.7}
+\contentsline {paragraph}{Criterio di Validazione:}{9}{section*.8}
+\contentsline {paragraph}{Legame con altri requisiti:}{9}{section*.9}
+\contentsline {subsection}{\numberline {F.2}Req.2 - Caricamento file utilizzabile nel documento}{9}{subsection.F.2}
+\contentsline {paragraph}{Tipologia:}{9}{section*.10}
+\contentsline {paragraph}{Descrizione:}{9}{section*.11}
+\contentsline {paragraph}{Importanza:}{9}{section*.12}
+\contentsline {paragraph}{Motivazione:}{9}{section*.13}
+\contentsline {paragraph}{Criterio di Validazione:}{9}{section*.14}
+\contentsline {paragraph}{Legame con altri requisiti:}{9}{section*.15}
+\contentsline {subparagraph}{Prerequisito}{9}{section*.16}
+\contentsline {subsection}{\numberline {F.3}Req.3 - Gestione di gruppi di utenti}{10}{subsection.F.3}
+\contentsline {paragraph}{Tipologia:}{10}{section*.17}
+\contentsline {paragraph}{Descrizione:}{10}{section*.18}
+\contentsline {paragraph}{Importanza:}{10}{section*.19}
+\contentsline {paragraph}{Motivazione:}{10}{section*.20}
+\contentsline {paragraph}{Criterio di Validazione:}{10}{section*.21}
+\contentsline {paragraph}{Legame con altri requisiti:}{10}{section*.22}
+\contentsline {subsection}{\numberline {F.4}Req.4 - Gestione dei permessi sul documento}{10}{subsection.F.4}
+\contentsline {paragraph}{Tipologia:}{10}{section*.23}
+\contentsline {paragraph}{Descrizione:}{10}{section*.24}
+\contentsline {paragraph}{Importanza:}{10}{section*.25}
+\contentsline {paragraph}{Motivazione:}{10}{section*.26}
+\contentsline {paragraph}{Criterio di Validazione:}{10}{section*.27}
+\contentsline {paragraph}{Legame con altri requisiti:}{10}{section*.28}
+\contentsline {subparagraph}{Prerequisito}{10}{section*.29}
+\contentsline {subparagraph}{Prerequisito}{11}{section*.30}
+\contentsline {subsection}{\numberline {F.5}Req.5 - Gestione delle versioni di un documento}{11}{subsection.F.5}
+\contentsline {paragraph}{Tipologia:}{11}{section*.31}
+\contentsline {paragraph}{Descrizione:}{11}{section*.32}
+\contentsline {paragraph}{Importanza:}{11}{section*.33}
+\contentsline {paragraph}{Motivazione:}{11}{section*.34}
+\contentsline {paragraph}{Criterio di Validazione:}{11}{section*.35}
+\contentsline {paragraph}{Legame con altri requisiti:}{11}{section*.36}
+\contentsline {subparagraph}{Prerequisito}{11}{section*.37}
+\contentsline {subsection}{\numberline {F.6}Req.6 - Gestione delle versioni di un file}{11}{subsection.F.6}
+\contentsline {paragraph}{Tipologia:}{11}{section*.38}
+\contentsline {paragraph}{Descrizione:}{11}{section*.39}
+\contentsline {paragraph}{Importanza:}{11}{section*.40}
+\contentsline {paragraph}{Motivazione:}{11}{section*.41}
+\contentsline {paragraph}{Criterio di Validazione:}{12}{section*.42}
+\contentsline {paragraph}{Legame con altri requisiti:}{12}{section*.43}
+\contentsline {subparagraph}{Prerequisito}{12}{section*.44}
+\contentsline {subparagraph}{Prerequisito}{12}{section*.45}
+\contentsline {section}{\numberline {G}Casi d'uso e di interazione}{13}{appendix.G}
+\contentsline {subsection}{\numberline {G.1}CASO1}{13}{subsection.G.1}
+\contentsline {subsubsection}{\numberline {G.1.1}CASO1 - Obiettivo}{13}{subsubsection.G.1.1}
+\contentsline {subsubsection}{\numberline {G.1.2}CASO1 - Descrizione ordinata e dettagliata interazione fra Utenti o Utenti-Sistema}{13}{subsubsection.G.1.2}
+\contentsline {subsubsection}{\numberline {G.1.3}CASO1 - Scenari}{13}{subsubsection.G.1.3}
+\contentsline {paragraph}{CASO1 - Happy Flow}{13}{section*.46}
+\contentsline {paragraph}{CASO1 - Percorsi alternativi}{13}{section*.47}
+\contentsline {subsubsection}{\numberline {G.1.4}CASO1 - Diagrammi}{13}{subsubsection.G.1.4}
+\contentsline {section}{\numberline {H}Descrizione di un processo notevole di interazione}{14}{appendix.H}
+\contentsline {subsection}{\numberline {H.1}Modello/diagramma dinamico (processo e di collaborazione)}{14}{subsection.H.1}
+\contentsline {section}{\numberline {I}Diagramma}{15}{appendix.I}
+\contentsline {subsection}{\numberline {I.1}di Struttura}{15}{subsection.I.1}
+\contentsline {subsubsection}{\numberline {I.1.1}static structure diagram}{15}{subsubsection.I.1.1}
+\contentsline {subsubsection}{\numberline {I.1.2}entity diagram}{15}{subsubsection.I.1.2}
+\contentsline {subsubsection}{\numberline {I.1.3}class diagram}{15}{subsubsection.I.1.3}
+\contentsline {subsubsection}{\numberline {I.1.4}activity diagram / behavior}{15}{subsubsection.I.1.4}
+\contentsline {subsubsection}{\numberline {I.1.5}BPMN}{15}{subsubsection.I.1.5}
+\contentsline {section}{\numberline {J}Appendici}{16}{appendix.J}
+\contentsline {subsection}{\numberline {J.1}diagrammi di sequenza}{16}{subsection.J.1}
+\contentsline {subsection}{\numberline {J.2}collaboration diagram}{16}{subsection.J.2}
+\contentsline {subsubsection}{\numberline {J.2.1}entity diagram + scambi di messaggio}{16}{subsubsection.J.2.1}

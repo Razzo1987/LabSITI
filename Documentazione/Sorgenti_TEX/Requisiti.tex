@@ -1,6 +1,10 @@
+% funzionale: cosa fa e non come, es. il sitema farà questo quando l'utente farà quell'latro
+% non funzionale: 
+% informativo: le informazioni gestite dal sitema es. input/output; è cosa è richiesto dal sistema
+
 \subsection{Req.1 - Gestione documento}
 \paragraph{Tipologia:}
-	(funzionale, non funzionale, informativo...)
+	Funzionale
 \paragraph{Descrizione:}
 	L'utente deve poter effettuare il \gls{crud} su un documento.
 \paragraph{Importanza:}
@@ -17,7 +21,7 @@
 
 \subsection{Req.2 - Caricamento file utilizzabile nel documento}
 \paragraph{Tipologia:}
-	(funzionale, non funzionale, informativo...)
+	Funzionale
 \paragraph{Descrizione:}
 	L'utente deve poter caricare un file (immagine, pdf, audio, video, ...) utilizzabile nel corpo del documento.
 \paragraph{Importanza:}
@@ -33,37 +37,85 @@
 
 \subsection{Req.3 - Gestione di gruppi di utenti}
 \paragraph{Tipologia:}
-	(funzionale, non funzionale, informativo...)
+	Funzionale
 \paragraph{Descrizione:}
-	Il docente può creare gruppi di utenti
-
-
-\subsection{Req.4 - Gestione dei permessi sul documento}
-\subsection{Req.5 - Gestione dei permessi sul file}
-
-
-
-
-
-
-
-\subsection{Req.6 - Gestione delle versioni di un documento}
-\paragraph{Tipologia:}
-	(funzionale, non funzionale, informativo...)
-\paragraph{Descrizione:}
-	L'utente deve poter inserire un file (immagine, pdf, audio, video, ...) nel corpo del documento.
+	Il docente può effettuare il \gls{crud} sui gruppi di utenti.
 \paragraph{Importanza:}
 	N (Need)
 \paragraph{Motivazione:}
-	Rendere un file disponibile all'interno del documento a fine esplicativo.
+	Permette al docente di organizzare gruppi di lavoro.
 \paragraph{Criterio di Validazione:}
-	Il file può essere caricato?\\
-	Il file viene inserito?\\
-	Il file è collocato dove indicato?
+	Il gruppo può essere creato?\\
+	Si può assegnare un utente in un gruppo?\\
+	Si può rimuovere un utente da un gruppo?\\
+	Il gruppo può essere cancellato?
 \paragraph{Legame con altri requisiti:}
-	\subparagraph{Prerequisito} Req.1 \\!!TO-DO
-
-\subsection{Req.7 - Gestione delle versioni di un file}
 
 
 
+\subsection{Req.4 - Gestione dei permessi sul documento}
+\paragraph{Tipologia:}
+	Funzionale
+\paragraph{Descrizione:}
+	Il docente può permettere ad un gruppo di utenti di visualizzare e/o modificare un documento.\\
+	Può inoltre cambiare il gruppo assegnato al documento.
+\paragraph{Importanza:}
+	N (Need)
+\paragraph{Motivazione:}
+	Permette al docente di assegnare ad uno specifico gruppo un ambiente di lavoro.
+\paragraph{Criterio di Validazione:}
+	Al documento può essere associato un gruppo?\\
+	Al documento può essere cambiato gruppo?\\
+	Il gruppo può visualizzare il documento?\\
+	Il gruppo può modificare il documento?\\
+	Il documento non è accessibile agli esterni al gruppo assegnato?
+\paragraph{Legame con altri requisiti:}
+	\subparagraph{Prerequisito} Req.1
+	\subparagraph{Prerequisito} Req.3
+
+
+%\subsection{Req.5 - Gestione dei permessi sul file}
+%	ereditarietà
+
+
+\subsection{Req.5 - Gestione delle versioni di un documento}
+\paragraph{Tipologia:}
+	Informativo e Funzionale %chiedere al prof.
+\paragraph{Descrizione:}
+	Il sistema deve tenere traccia e visualizzare le modifiche effettuate sul documento con relativa data e autore.\\
+	Gli utenti possono ritornare a una versione precedente del documento.
+\paragraph{Importanza:}
+	M (Must)
+\paragraph{Motivazione:}
+	Poter visualizzare l'evoluzione del documento.\\
+	Poter ritornare a una versione precedente del documento.\\
+	Poter verificare il contributo di ogni componente del gruppo sul documento.
+\paragraph{Criterio di Validazione:}
+	Quando un utente modifica il documento, la modifica viene tracciata?\\
+	Viene visualizzata la cronostoria del documento?\\
+	E' possibile ripristinare una versione precedente?
+\paragraph{Legame con altri requisiti:}
+	\subparagraph{Prerequisito} Req.1
+
+
+\subsection{Req.6 - Gestione delle versioni di un file}
+\paragraph{Tipologia:}
+	Informativo e Funzionale %chiedere al prof.
+\paragraph{Descrizione:}
+	Il sistema deve tenere traccia e visualizzare gli upload di un file con relativa data e autore.\\
+	Gli utenti possono ritornare a una versione precedente del file.
+\paragraph{Importanza:}
+	W (wish)
+\paragraph{Motivazione:}
+	Poter visualizzare l'evoluzione del file.\\
+	Poter ritornare ad una versione precedente del file.\\
+	Poter scaricare una qualunque versione del file.\\
+	Poter verificare l'autore del caricamento del file.
+\paragraph{Criterio di Validazione:}
+	Quando un utente ricarica il file, viene tracciata la versione precedente?\\
+	Viene visualizzata la cronostoria del file?\\
+	E' possibile ripristinare una versione precedente?\\
+	E' possibile scaricare una qualunque versione del file?
+\paragraph{Legame con altri requisiti:}
+	\subparagraph{Prerequisito} Req.1
+	\subparagraph{Prerequisito} Req.2

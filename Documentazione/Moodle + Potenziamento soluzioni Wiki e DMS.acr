@@ -2,7 +2,9 @@
 \begin{theglossary}\glossaryheader
 \glsgroupheading{C}\relax \glsresetentrylist %
 \glossaryentryfield{cas}{\glsnamefont{CAS}}{\gls {Central Authentication Service}}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{3}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{3}}}%
+\glossaryentryfield{crud}{\glsnamefont{CRUD}}{Create Read Update Delete}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9\delimN 10}}}\glsgroupskip
 \glsgroupheading{D}\relax \glsresetentrylist %
 \glossaryentryfield{dms}{\glsnamefont{DMS}}{\gls {Document Management System}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}}}%
